@@ -1,0 +1,9 @@
+/*le style de tous les bouton*/
+.normal{
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color:#001D4A ;
+    color: #fff;
+}
