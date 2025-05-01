@@ -7,6 +7,11 @@
     font-family: "Inter", sans-serif;
 }
 
+h2{
+    text-align: center;
+    color: #34495e;
+}
+
 #grodConteneur{
     display: flex;
     align-items: center;
@@ -24,6 +29,7 @@
 
 .card-list .card-item{
     list-style: none;
+    
 }
 
 .card-list .card-item .card-link{
@@ -76,7 +82,7 @@
     color: #fff;
     border-radius: 50px;
     margin: 30px 0 5px;
-    background: none;
+    background:none ;
     cursor: pointer;
     border: 2px solid #fff;
     transform: rotate(-45deg);
@@ -88,6 +94,7 @@
 .card-list .card-link:hover .card-button{
     color: #fff;
     background: #5372f0;
+    
 
 }
 
