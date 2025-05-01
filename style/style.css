@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*le style de tous les bouton*/
+
 .normal{
     padding: 15px;
     margin: 5px;
@@ -12,11 +14,13 @@
     background-color:#001D4A ;
     color: #fff;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 10rem;/*j'ai mis ce padding pour faciliter la fixtion*/
 
 }
+
 header{/*fixation de l'entete header*/
     position: fixed;
     top:0;
@@ -24,6 +28,7 @@ header{/*fixation de l'entete header*/
     width: 100%;
     z-index: 1000;
 }
+
 .un{
     display: flex;
     justify-content: space-between;
@@ -32,6 +37,7 @@ header{/*fixation de l'entete header*/
     color: #fff;
     padding: 2rem;
 }
+
 nav ul{
     display: flex;
     list-style: none;
@@ -63,6 +69,7 @@ ul a{
 }
 nav ul li:hover{
     background-color: #95a5a6;
+    position: relative;
 }
 footer{
     text-align: center;
