@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="un">
+            <h1>VideoClub</h1>
+            <nav>
+                <ul>
+                    <li class="blue"><a href="accueil.html">Acceuil</a></li>
+                    <li class="blue"><a href="film.html">Films</a></li>
+                    <li class="blue"><a href="service.html">Services</a></li>
+                    <li class="blue"><a href="Apropos.html">A propos</a></li>
+                    <li class="blue"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="recherche">
+            <input type="text" id="searchBar" placeholder="Rechercher un film..">
+            <ul id="resultlist"></ul>
+        </div>
+    </header>
+
+    <!--les coordonnees-->
+    <section id="coordonnées">
+        <div class="contact-info">
+            <h2>Coordonnées</h2>
+            <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter par les coordonnées
+                fournies.
+                Nous sommes là pour vous aider et répondre à vos besoins.
+            </p>
+
+            <div class="contact-grid">
+                <div>Nom :</div>
+                <div><strong>ndrikouamejeremie</strong></div>
+
+                <div>Adresse :</div>
+                <div><strong>Sinematiali, Cote d'Ivoire</strong></div>
+
+                <div>Téléphone :</div>
+                <div><strong>(+225) 05 00 42 99 32</strong></div>
+
+                <div>Email :</div>
+                <div><strong>ndrikouamejeremie@gmail.com</strong></div>
+
+                <div>Horaires d'ouverture :</div>
+                <div><strong>Lundi - Dimanche : 9h00 - 18h00</strong></div>
+
+                <div>Services :</div>
+                <div><strong>Location de films, vente de DVD, conseils personnalisés</strong></div>
+
+                <div>Langues parlées :</div>
+                <div><strong>Français, Anglais</strong></div>
+
+                <div>Modes de paiement acceptés :</div>
+                <div><strong>Espèces, cartes de crédit, virements bancaires</strong></div>
+            </div>
+
+        </div>
+
+        <!--la section localisation-->
+        <div class="cont">
+            <h2>Localisation</h2>
+        </div>
+        <div class="container">
+            <div class="contact-info">
+                <p>Nous sommes situés à Sinematiali, une ville dynamique et accueillante de la Côte d'Ivoire. Notre
+                    bureau
+                    est facilement accessible et nous serions ravis de vous accueillir.
+                </p>
+                <div class="icone">
+                    <ul>
+                        <li> <i class="fas fa-envelope">ndrikouamejeremie@gmail.com</i></li>
+                        <li> <i class="fas fa-phone">(+225) 05 00 42 99 32</i></li>
+                        <li><i class="fas fa-map-marker-alt">123 Rue du ministre Sinematiali, Cote d'Ivoire</i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--google maps-->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62945.98318311067!2d-5.429049687008614!3d9.584582918033359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfb595f87de44577%3A0xad06b57e00b4bcd1!2sSinematiali!5e0!3m2!1sfr!2sci!4v1746122460379!5m2!1sfr!2sci"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <!--formulaire-->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="post">
+
+            <input type="text" id="name" name="name" placeholder="votre nom" required><br>
+
+            <input type="email" id="email" name="email" placeholder="Votre email" required><br>
+
+            <textarea id="message" name="message" placeholder="Votre message" required></textarea><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 VideoClub - tous droits reservés</p>
+    </footer>
+</body>
+
+</body>
+
+</html>

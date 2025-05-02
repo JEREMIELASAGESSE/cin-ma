@@ -1,0 +1,181 @@
+:root {
+    --primary-color: #001D4A;
+    --secondary-color: #34495e;
+    --accent-color: #95a5a6;
+    --text-light: #fff;
+    --background-light: #e5e6e6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10rem;/*j'ai mis ce padding pour faciliter la fixtion*/
+
+}
+header{/*fixation de l'entete header*/
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.un{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 2rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+}
+.blue{/*classe des elements ul de la nav*/
+    background-color:var(--secondary-color);
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+}
+ul a{
+    text-decoration: none;
+    color: var(--text-light);
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4rem;
+}
+.recherche input{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+    font-weight: normal;
+}
+nav ul li:hover{
+    background-color:var(--accent-color);
+    transition: 0.5s;
+
+}
+.contact-info{
+    padding: 1rem 2rem 2rem 2rem;
+    margin: 1rem 2rem 2rem 2rem;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-grid{ /*la disposition des elements en grid*/
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 0.5rem;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    
+}
+.contact-info h2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.contact-info p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.container{/*la grande boite contenant les icones et la localisation*/
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 2rem 2rem;
+    margin: 1rem 2rem 2rem 2rem;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--text-light);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+.icone i{
+    font-size: 1rem;
+    color: var(--text-light);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+
+.cont h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+
+}#contact{/*la grande boite du formulaire*/
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    flex-wrap: wrap;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+#contact input,
+#contact button{
+    width: 30%;
+    height: 45px;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-radius: 5px;
+    font-weight: normal;
+    border: 1px solid var(--text-light);
+    padding: 0.5rem;
+}
+#contact textarea{
+    width: 30%;
+    height: 100px;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-radius: 5px;
+    font-weight: normal;
+    border: 1px solid var(--text-light);
+    padding: 0.5rem;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    background-color: #e5e6e6;
+
+}
