@@ -1,0 +1,158 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} 
+p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+}
+
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.action{
+    display: flex;
+}
+
+.action img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}
+
+.animation{
+    display: flex;
+}
+
+.animation img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}
+
+.drame{
+    display: flex;
+}
+
+.drame img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}
+
+.horreur{
+    display: flex;
+}
+
+.horreur img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}
+
+.classique{
+    display: flex;
+}
+
+.classique img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}
+
+.romance{
+    display: flex;
+}
+
+.romance img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}
+
+.science {
+    display: flex;
+}
+
+.science img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}
+
+.comedie{
+    display: flex;
+}
+
+.comedie img{
+    width: 350px;
+    height: 400px;
+    margin: 15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid #000;
+  box-shadow: 9px 10px 15px #000;
+}

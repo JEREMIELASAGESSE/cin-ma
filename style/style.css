@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*le style de tous les bouton*/
+
+.normal{
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color:#001D4A ;
+    color: #fff;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10rem;/*j'ai mis ce padding pour faciliter la fixtion*/
+
+}
+
+header{/*fixation de l'entete header*/
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.un{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    background-color: #001D4A;
+    color: #fff;
+    padding: 2rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+}
+.blue{/*classe des elements ul de la nav*/
+    background-color: #34495e;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4rem;
+}
+.recherche input{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #34495e;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li:hover{
+    background-color: #95a5a6;
+    position: relative;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    background-color: #e5e6e6;
+
+}

@@ -1,0 +1,214 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: linear-gradient(#ECEFFE, #CED6FB);
+    min-height: 100vh;
+}
+
+nav a
+{
+    font-size: 22px;
+       
+}
+
+nav ul  li{
+    
+    gap: 1.2rem;
+    font-size: 1.rem;
+    padding-top: 0.7rem;
+    padding:  0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav ul  li a {
+
+    display: block;
+    line-height: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.un{
+    height: 130PX;
+   
+}
+
+.nom{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+} 
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 3px;
+}
+
+.table-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(76, 0, 255, 0.1);
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #5372f0;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #5372f0;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9ff;
+}
+
+tr:hover {
+    background-color: #e8edff;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-right: 8px;
+}
+
+.badge-drame {
+    background-color: #dde4ff;
+    color: #5372f0;
+}
+
+.badge-action {
+    background-color: #ffe0e0;
+    color: #f05353;
+}
+
+.badge-animation {
+    background-color: #e0ffe8;
+    color: #53f07a;
+}
+
+.badge-scifi {
+    background-color: #e0f7ff;
+    color: #53b9f0;
+}
+
+.badge-comedie {
+    background-color: #fff7e0;
+    color: #f0a753;
+}
+
+.badge-aventure {
+    background-color: #f0e0ff;
+    color: #9a53f0;
+}
+
+.badge-romance {
+    background-color: #ffdff0;
+    color: #f053a6;
+}
+
+.table-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.program-button {
+    background: linear-gradient(135deg, #5372f0, #3a56c8);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 15px rgba(83, 114, 240, 0.3);
+    transition: all 0.3s ease;
+}
+
+.program-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(83, 114, 240, 0.4);
+    background: linear-gradient(135deg, #3a56c8, #5372f0);
+}
+
+.program-button:active {
+    transform: translateY(0);
+}
+
+.program-button span {
+    font-size: 1.2rem;
+}
+
+
+footer {
+    background-color: #001D4A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .un {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .table-container {
+        padding: 15px;
+    }
+
+    th, td {
+        padding: 10px 8px;
+        font-size: 0.9rem;
+    }
+}
+
